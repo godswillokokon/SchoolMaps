@@ -1,6 +1,6 @@
 import React from 'react';
 import { ApplicationProvider, Button, Icon, Layout, Text, IconRegistry, } from '@ui-kitten/components';
-import { mapping, light as lightTheme } from '@eva-design/eva';
+import { mapping, dark as darkTheme } from '@eva-design/eva';
 import { EvaIconsPack } from '@ui-kitten/eva-icons';
 
 
@@ -18,7 +18,7 @@ const HomeScreen = () => (
 const App = () => (
   <React.Fragment>
     <IconRegistry icons={EvaIconsPack} />
-    <ApplicationProvider mapping={mapping} theme={lightTheme}>
+    <ApplicationProvider mapping={mapping} theme={darkTheme}>
       <HomeScreen />
     </ApplicationProvider>
   </React.Fragment>
