@@ -1,9 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.schoolmaps">
+  package="com.crutechmap">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_COURSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
       android:name=".MainApplication"
       android:label="@string/app_name"
@@ -11,9 +10,6 @@
       android:roundIcon="@mipmap/ic_launcher_round"
       android:allowBackup="false"
       android:theme="@style/AppTheme">
-      <meta-data
-        android:name="com.google.android.geo.AIzaSyACUVY6Far3Yse7geU_v6ycq9SMYD5kNKg"
-        android:value="AIzaSyACUVY6Far3Yse7geU_v6ycq9SMYD5kNKg"/>
       <activity
         android:name=".MainActivity"
         android:label="@string/app_name"

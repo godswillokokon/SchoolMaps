@@ -1,4 +1,4 @@
-package com.schoolmaps;
+package com.crutechmap;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "SchoolMaps";
+    return "CrutechMap";
   }
 }

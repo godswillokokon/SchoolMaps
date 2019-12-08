@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'SchoolMaps' do
-  # Pods for SchoolMaps
+target 'CrutechMap' do
+  # Pods for CrutechMap
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -34,8 +34,7 @@ target 'SchoolMaps' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-
-  target 'SchoolMapsTests' do
+  target 'CrutechMapTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -43,10 +42,10 @@ target 'SchoolMaps' do
   use_native_modules!
 end
 
-target 'SchoolMaps-tvOS' do
-  # Pods for SchoolMaps-tvOS
+target 'CrutechMap-tvOS' do
+  # Pods for CrutechMap-tvOS
 
-  target 'SchoolMaps-tvOSTests' do
+  target 'CrutechMap-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
