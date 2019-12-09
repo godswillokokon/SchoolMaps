@@ -13,10 +13,10 @@ export const HomeScreen = ({ navigation }) => {
 
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <TopNavigation title='MyApp' alignment='center' />
+      <TopNavigation title='CRUTECH Map' alignment='center' />
       <Divider />
       <Layout style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text catetory='h1'>Welcome to CRUTEC Maps</Text>
+        <Text catetory='h1'>Welcome to CRUTECH Maps</Text>
         <Button onPress={navigateLogin}> Login with Gmail</Button>
       </Layout>
     </SafeAreaView>

@@ -18,7 +18,7 @@ export const MapsScreen = ({ navigation }) => {
 
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <TopNavigation title='MyApp' alignment='center' leftControl={BackAction()} />
+      <TopNavigation title='CRUTECH Map' alignment='center' leftControl={BackAction()} />
       <Divider />
       <Layout style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         <Text category='h1'>Maps</Text>
