@@ -1,4 +1,4 @@
-package com.crutechmap;
+package com.crutechmaps;
 
 import android.app.Application;
 import android.content.Context;

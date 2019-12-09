@@ -14,11 +14,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface CrutechMapTests : XCTestCase
+@interface CrutechMapsTests : XCTestCase
 
 @end
 
-@implementation CrutechMapTests
+@implementation CrutechMapsTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {
