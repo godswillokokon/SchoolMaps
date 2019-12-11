@@ -21,9 +21,9 @@ const BackIcon = (style) => (
 const { width, height } = Dimensions.get('window');
 
 const ASPECT_RATIO = width / height;
-const LATITUDE = 4.9307239;
-const LONGITUDE = 8.3279884;
-const LATITUDE_DELTA = 0.0922 / 2;
+const LATITUDE = 4.926956;
+const LONGITUDE = 8.330295;
+const LATITUDE_DELTA = 0.0201 / 2;
 const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 
 export const MapsScreen = ({ navigation }) => {
@@ -49,7 +49,7 @@ export const MapsScreen = ({ navigation }) => {
           latitudeDelta: LATITUDE_DELTA,
           longitudeDelta: LONGITUDE_DELTA
         }}
-        mapType={satellite}
+        mapType="satellite"
         showsUserLocation
       />
     </SafeAreaView>
