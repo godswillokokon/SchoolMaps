@@ -1,13 +1,30 @@
 import React from 'react';
 import { SafeAreaView } from 'react-navigation';
 import { Divider, Icon, Layout, Text, TopNavigation, TopNavigationAction } from '@ui-kitten/components';
-import { Platform, StyleSheet } from 'react-native';
-import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
+import { Dimensions, StyleSheet, PermissionsAndroid, } from 'react-native';
+import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
+import PropTypes from 'prop-types';
+
+
+const GEOLOCATION_OPTIONS = {
+  enableHighAccuracy: true,
+  timeout: 20000,
+  maximumAge: 1000,
+};
+
 
 
 const BackIcon = (style) => (
   <Icon {...style} name='arrow-back' />
 );
+
+const { width, height } = Dimensions.get('window');
+
+const ASPECT_RATIO = width / height;
+const LATITUDE = 4.9307239;
+const LONGITUDE = 8.3279884;
+const LATITUDE_DELTA = 0.0922 / 2;
+const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 
 export const MapsScreen = ({ navigation }) => {
 
@@ -27,11 +44,12 @@ export const MapsScreen = ({ navigation }) => {
         provider={PROVIDER_GOOGLE}
         style={styles.map}
         region={{
-          latitude: 42.882008,
-          longitude: 74.582748,
-          latitudeDelta: 0.0922,
-          longitudeDelta: 0.0421
+          latitude: LATITUDE,
+          longitude: LONGITUDE,
+          latitudeDelta: LATITUDE_DELTA,
+          longitudeDelta: LONGITUDE_DELTA
         }}
+        mapType={satellite}
         showsUserLocation
       />
     </SafeAreaView>
@@ -40,8 +58,6 @@ export const MapsScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     ...StyleSheet.absoluteFillObject,
-    height: 400,
-    width: 400,
     justifyContent: 'flex-end',
     alignItems: 'center',
   },
