@@ -50,7 +50,7 @@ export const MapsScreen = ({ navigation }) => {
           longitudeDelta: LONGITUDE_DELTA
         }}
         mapType="satellite"
-        showsUserLocation
+        showsUserLocation={true}
       />
     </SafeAreaView>
   );
