@@ -17,7 +17,7 @@ export const HomeScreen = ({ navigation }) => {
       <Divider />
       <Layout style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         <Text catetory='h1'>Welcome to CRUTECH Maps</Text>
-        <Button onPress={navigateLogin}>Explore</Button>
+        <Button onPress={navigateLogin} style={{ margin: 30, justifyContent: 'center', alignItems: 'center' }}>Explore</Button>
       </Layout>
     </SafeAreaView>
   );

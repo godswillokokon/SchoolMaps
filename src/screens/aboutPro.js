@@ -1,6 +1,6 @@
 import React from 'react';
 import { SafeAreaView } from 'react-navigation';
-import { Divider, Text, Icon, Layout, Button, TopNavigation, TopNavigationAction } from '@ui-kitten/components';
+import { Divider, Text, Icon, Layout, Button, TopNavigation, TopNavigationAction, Card } from '@ui-kitten/components';
 
 import { EvaIconsPack } from '@ui-kitten/eva-icons';
 
@@ -20,7 +20,11 @@ export const ProScreen = ({ navigation }) => {
       <TopNavigation title='CRUTECH Map' alignment='center' leftControl={BackAction()} />
       <Divider />
       <Layout style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text catetory='h1'>Project</Text>
+        <Card>
+          <Text>
+            About Project
+         </Text>
+        </Card>
 
       </Layout>
     </SafeAreaView>

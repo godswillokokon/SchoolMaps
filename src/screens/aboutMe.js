@@ -21,7 +21,11 @@ export const MeScreen = ({ navigation }) => {
       <TopNavigation title='CRUTECH Map' alignment='center' leftControl={BackAction()} />
       <Divider />
       <Layout style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text catetory='h1'>Me</Text>
+        <Card>
+          <Text>
+            About Me
+         </Text>
+        </Card>
 
       </Layout>
     </SafeAreaView>
