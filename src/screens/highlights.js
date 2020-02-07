@@ -21,49 +21,214 @@ export const HighlightsScreen = ({ navigation }) => {
   const BackAction = () => (
     <TopNavigationAction icon={BackIcon} onPress={navigateBack} />
   );
-  const CustomHeader = () => (
+  const Admin = () => (
     <React.Fragment>
       <Image
         style={styles.headerImage}
-        source={{ uri: 'https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__340.jpg' }}
+        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
       />
       <Text
         style={styles.headerText}
         category='h6'>
-        Maldives
+        Admin
     </Text>
     </React.Fragment>
   );
+  const Gate = () => (
+    <React.Fragment>
+      <Image
+        style={styles.headerImage}
+        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+      />
+      <Text
+        style={styles.headerText}
+        category='h6'>
+        Gate
+    </Text>
+    </React.Fragment>
+  );
+  const Mass = () => (
+    <React.Fragment>
+      <Image
+        style={styles.headerImage}
+        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+      />
+      <Text
+        style={styles.headerText}
+        category='h6'>
+        Mass Communcation / Estate Management
+    </Text>
+    </React.Fragment>
+  );
+  const Work = () => (
+    <React.Fragment>
+      <Image
+        style={styles.headerImage}
+        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+      />
+      <Text
+        style={styles.headerText}
+        category='h6'>
+        Department of works
+    </Text>
+    </React.Fragment>
+  );
+  const Boys = () => (
+    <React.Fragment>
+      <Image
+        style={styles.headerImage}
+        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+      />
+      <Text
+        style={styles.headerText}
+        category='h6'>
+        Boys Hostel
+    </Text>
+    </React.Fragment>
+  );
+  const ETF = () => (
+    <React.Fragment>
+      <Image
+        style={styles.headerImage}
+        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+      />
+      <Text
+        style={styles.headerText}
+        category='h6'>
+        ETF
+    </Text>
+    </React.Fragment>
+  );
+  const HallOne = () => (
+    <React.Fragment>
+      <Image
+        style={styles.headerImage}
+        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+      />
+      <Text
+        style={styles.headerText}
+        category='h6'>
+        Hall 1
+    </Text>
+    </React.Fragment>
+  );
+  const HallTwo = () => (
+    <React.Fragment>
+      <Image
+        style={styles.headerImage}
+        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+      />
+      <Text
+        style={styles.headerText}
+        category='h6'>
+        Hall Two
+    </Text>
+    </React.Fragment>
+  );
+  const HallThree = () => (
+    <React.Fragment>
+      <Image
+        style={styles.headerImage}
+        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+      />
+      <Text
+        style={styles.headerText}
+        category='h6'>
+        Hall Three
+    </Text>
+    </React.Fragment>
+  );
+  const Lib = () => (
+    <React.Fragment>
+      <Image
+        style={styles.headerImage}
+        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+      />
+      <Text
+        style={styles.headerText}
+        category='h6'>
+        Library
+    </Text>
+    </React.Fragment>
+  );
+  const Lab = () => (
+    <React.Fragment>
+      <Image
+        style={styles.headerImage}
+        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+      />
+      <Text
+        style={styles.headerText}
+        category='h6'>
+        Computer Lab
+    </Text>
+    </React.Fragment>
+  );
+  const NSB = () => (
+    <React.Fragment>
+      <Image
+        style={styles.headerImage}
+        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+      />
+      <Text
+        style={styles.headerText}
+        category='h6'>
+        NSB Block
+    </Text>
+    </React.Fragment>
+  );
+
 
   return (
     <ScrollView contentInsetAdjustmentBehavior="automatic">
       <SafeAreaView style={styles.container}>
         <TopNavigation title='CRUTECH Map' alignment='center' leftControl={BackAction()} />
         <Divider />
-        <Card header={CustomHeader}>
+        <Card header={Admin}>
 
-          <Text>
-            The Maldives, officially the Republic of Maldives, is a small country in South Asia,
-            located in the Arabian Sea of the Indian Ocean.
-            It lies southwest of Sri Lanka and India, about 1,000 kilometres (620 mi) from the Asian continent
-        </Text>
-        </Card>
-        <Card header={CustomHeader}>
 
-          <Text>
-            The Maldives, officially the Republic of Maldives, is a small country in South Asia,
-            located in the Arabian Sea of the Indian Ocean.
-            It lies southwest of Sri Lanka and India, about 1,000 kilometres (620 mi) from the Asian continent
-        </Text>
         </Card>
-        <Card header={CustomHeader}>
+        <Card header={Gate}>
 
-          <Text>
-            The Maldives, officially the Republic of Maldives, is a small country in South Asia,
-            located in the Arabian Sea of the Indian Ocean.
-            It lies southwest of Sri Lanka and India, about 1,000 kilometres (620 mi) from the Asian continent
-        </Text>
+
         </Card>
+        <Card header={Mass}>
+
+
+        </Card>
+        <Card header={Work}>
+
+
+        </Card>
+        <Card header={Boys}>
+
+
+        </Card>
+        <Card header={ETF}>
+
+
+        </Card>
+        <Card header={HallOne}>
+
+
+        </Card>
+        <Card header={HallTwo}>
+
+
+        </Card>
+        <Card header={HallThree}>
+
+
+        </Card>
+        <Card header={Lab}>
+
+
+        </Card>
+        <Card header={NSB}>
+
+
+        </Card>
+
       </SafeAreaView>
     </ScrollView>
   );

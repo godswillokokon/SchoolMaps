@@ -1,6 +1,6 @@
 import React from 'react';
 import { SafeAreaView } from 'react-navigation';
-import { Divider, Text, Icon, Layout, Button, TopNavigation, TopNavigationAction, Card } from '@ui-kitten/components';
+import { Divider, Text, Icon, Layout, Card, TopNavigation, TopNavigationAction } from '@ui-kitten/components';
 
 import { EvaIconsPack } from '@ui-kitten/eva-icons';
 
