@@ -24,12 +24,12 @@ export const MeScreen = ({ navigation }) => {
     <React.Fragment>
       <Image
         style={styles.headerImage}
-        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+        source={{ uri: 'https://res.cloudinary.com/dnzgtmimy/image/upload/v1581175244/DSC_0024_ipnwa4.jpg' }}
       />
       <Text
         style={styles.headerText}
         category='h6'>
-        Admin
+        Justice Odey Ukanada
     </Text>
     </React.Fragment>
   );
@@ -42,15 +42,9 @@ export const MeScreen = ({ navigation }) => {
 
         <Card header={Admin} >
           <Text >
-            The Maldives, officially the Republic of Maldives, is a small country in South Asia,
-            located in the Arabian Sea of the Indian Ocean.
-            It lies southwest of Sri Lanka and India, about 1,000 kilometres (620 mi) from the Asian continent
-             The Maldives, officially the Republic of Maldives, is a small country in South Asia,
-            located in the Arabian Sea of the Indian Ocean.
-            It lies southwest of Sri Lanka and India, about 1,000 kilometres (620 mi) from the Asian continent
-             The Maldives, officially the Republic of Maldives, is a small country in South Asia,
-            located in the Arabian Sea of the Indian Ocean.
-            It lies southwest of Sri Lanka and India, about 1,000 kilometres (620 mi) from the Asian continent
+            MY NAME  is justice odey ukanada, from the native of bekwara local government of cross river state.
+            A student of computer science in cross river university of technology calabar.
+            I believe that this project becomes a working tool for every user. thank you.
 
         </Text>
         </Card>
@@ -67,8 +61,8 @@ const styles = StyleSheet.create({
   },
   headerImage: {
 
-    height: 192,
-    width: 600
+    height: 452,
+    width: 400
   },
   container: {
     flex: 1,

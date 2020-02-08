@@ -42,16 +42,11 @@ export const ProScreen = ({ navigation }) => {
 
         <Card header={Admin} >
           <Text >
-            The Maldives, officially the Republic of Maldives, is a small country in South Asia,
-            located in the Arabian Sea of the Indian Ocean.
-            It lies southwest of Sri Lanka and India, about 1,000 kilometres (620 mi) from the Asian continent
-             The Maldives, officially the Republic of Maldives, is a small country in South Asia,
-            located in the Arabian Sea of the Indian Ocean.
-            It lies southwest of Sri Lanka and India, about 1,000 kilometres (620 mi) from the Asian continent
-             The Maldives, officially the Republic of Maldives, is a small country in South Asia,
-            located in the Arabian Sea of the Indian Ocean.
-            It lies southwest of Sri Lanka and India, about 1,000 kilometres (620 mi) from the Asian continent
+            I decided to carry out this project to help the members of the public, especially the new students find locations easily around the school environment,, this project is restricted to cross river university of technology calabar campus
 
+        </Text>
+          <Text >
+            i want to thank God for the inspiration to start this project even when material was not easily found to help me work efficiently, i also want to thank my project supervisor in the person of Dr. Orok Duke for his encouragement and support through out this research work
         </Text>
         </Card>
 
