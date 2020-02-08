@@ -21,6 +21,19 @@ export const HighlightsScreen = ({ navigation }) => {
   const BackAction = () => (
     <TopNavigationAction icon={BackIcon} onPress={navigateBack} />
   );
+  const Gate = () => (
+    <React.Fragment>
+      <Image
+        style={styles.headerImage}
+        source={{ uri: 'https://res.cloudinary.com/dnzgtmimy/image/upload/v1581177052/WhatsApp_Image_2020-02-01_at_1.05.33_PM_1_jusfsg.jpg' }}
+      />
+      <Text
+        style={styles.headerText}
+        category='h6'>
+        CRUTECH Gate
+    </Text>
+    </React.Fragment>
+  );
   const Admin = () => (
     <React.Fragment>
       <Image
@@ -30,7 +43,7 @@ export const HighlightsScreen = ({ navigation }) => {
       <Text
         style={styles.headerText}
         category='h6'>
-        Admin
+        Admin Block
     </Text>
     </React.Fragment>
   );
@@ -38,7 +51,7 @@ export const HighlightsScreen = ({ navigation }) => {
     <React.Fragment>
       <Image
         style={styles.headerImage}
-        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+        source={{ uri: 'https://res.cloudinary.com/dnzgtmimy/image/upload/v1581176074/Screenshot_20200201-130820_jgduzv.png ' }}
       />
       <Text
         style={styles.headerText}
@@ -47,19 +60,7 @@ export const HighlightsScreen = ({ navigation }) => {
     </Text>
     </React.Fragment>
   );
-  const Gate = () => (
-    <React.Fragment>
-      <Image
-        style={styles.headerImage}
-        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
-      />
-      <Text
-        style={styles.headerText}
-        category='h6'>
-        Gate
-    </Text>
-    </React.Fragment>
-  );
+
   const Mass = () => (
     <React.Fragment>
       <Image
@@ -247,7 +248,7 @@ const styles = StyleSheet.create({
   headerImage: {
 
     height: 192,
-    width: 600
+    width: 500
   },
   container: {
     flex: 1,

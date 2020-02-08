@@ -29,7 +29,7 @@ export const ProScreen = ({ navigation }) => {
       <Text
         style={styles.headerText}
         category='h6'>
-        Admin
+        LOCATION IDENTIFICATION SYSTEM
     </Text>
     </React.Fragment>
   );
@@ -42,11 +42,11 @@ export const ProScreen = ({ navigation }) => {
 
         <Card header={Admin} >
           <Text >
-            I decided to carry out this project to help the members of the public, especially the new students find locations easily around the school environment,, this project is restricted to cross river university of technology calabar campus
-
+        We decided to carry out this study to help the members of the public, especially the new student find locations easily around the school environment, this project is restricted to Cross River University of Technology Calabar Campus.
+    
         </Text>
           <Text >
-            i want to thank God for the inspiration to start this project even when material was not easily found to help me work efficiently, i also want to thank my project supervisor in the person of Dr. Orok Duke for his encouragement and support through out this research work
+            I want to thank God for the inspiration to start this project even when material was not easily found to help me work efficiently, i also want to thank my project supervisor in the person of Dr. Orok Duke for his encouragement and support through out this research work.
         </Text>
         </Card>
 
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
   },
   headerImage: {
 
-    height: 192,
+    height: 292,
     width: 600
   },
   container: {
