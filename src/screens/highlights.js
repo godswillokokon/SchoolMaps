@@ -34,6 +34,19 @@ export const HighlightsScreen = ({ navigation }) => {
     </Text>
     </React.Fragment>
   );
+  const Lib = () => (
+    <React.Fragment>
+      <Image
+        style={styles.headerImage}
+        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+      />
+      <Text
+        style={styles.headerText}
+        category='h6'>
+        Library
+    </Text>
+    </React.Fragment>
+  );
   const Gate = () => (
     <React.Fragment>
       <Image
@@ -138,19 +151,7 @@ export const HighlightsScreen = ({ navigation }) => {
     </Text>
     </React.Fragment>
   );
-  const Lib = () => (
-    <React.Fragment>
-      <Image
-        style={styles.headerImage}
-        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
-      />
-      <Text
-        style={styles.headerText}
-        category='h6'>
-        Library
-    </Text>
-    </React.Fragment>
-  );
+
   const Lab = () => (
     <React.Fragment>
       <Image
@@ -193,6 +194,10 @@ export const HighlightsScreen = ({ navigation }) => {
 
         </Card>
         <Card header={Mass}>
+
+
+        </Card>
+        <Card header={Lib}>
 
 
         </Card>

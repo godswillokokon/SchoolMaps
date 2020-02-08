@@ -55,8 +55,8 @@ export const MapsScreen = ({ navigation }) => {
       >
         <Marker
           coordinate={{
-            latitude: 4.9276895,
-            longitude: 8.3275487
+            latitude: 4.924636,
+            longitude: 8.329236
           }}
           title="New  Science  Block 1"
           description="LECTURE HALL"
@@ -65,8 +65,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.926574,
-            longitude: 8.3267533
+            latitude: 4.926572,
+            longitude: 8.328932
           }}
           title="Coma Cola Hut"
           description="Restaurant"
@@ -74,8 +74,8 @@ export const MapsScreen = ({ navigation }) => {
         />
         <Marker
           coordinate={{
-            latitude: 4.927248,
-            longitude: 8.330589,
+            latitude: 4.927540,
+            longitude: 8.330644,
           }}
           title="Volleybal Court"
           description="Court"
@@ -83,8 +83,8 @@ export const MapsScreen = ({ navigation }) => {
         />
         <Marker
           coordinate={{
-            latitude: 4.931418,
-            longitude: 8.328324
+            latitude: 4.931420,
+            longitude: 8.328315
           }}
           title="Round about"
           description="Round about"
@@ -92,8 +92,8 @@ export const MapsScreen = ({ navigation }) => {
         />
         <Marker
           coordinate={{
-            latitude: 4.9757177,
-            longitude: 8.3417014
+            latitude: 4.931912,
+            longitude: 8.329860
           }}
           title="The Chapel Of Grace"
           description="Church"
@@ -101,8 +101,8 @@ export const MapsScreen = ({ navigation }) => {
         />
         <Marker
           coordinate={{
-            latitude: 4.9757177,
-            longitude: 8.3417014
+            latitude: 4.931890,
+            longitude: 8.331572
           }}
           title="St Josheph CatholicChaplaincy"
           description="Church"
@@ -110,8 +110,8 @@ export const MapsScreen = ({ navigation }) => {
         />
         <Marker
           coordinate={{
-            latitude: 4.931513,
-            longitude: 8.329648
+            latitude: 4.931612,
+            longitude: 8.329667
           }}
           title="Micro Finance Bank"
           description="Bank"
@@ -119,17 +119,17 @@ export const MapsScreen = ({ navigation }) => {
         />
         <Marker
           coordinate={{
-            latitude: 4.931418,
-            longitude: 8.328324
+            latitude: 4.931396,
+            longitude: 8.329544
           }}
-          title="Round about"
-          description="Round about"
+          title="Gate"
+          description="Gate"
 
         />
         <Marker
           coordinate={{
-            latitude: 4.931008,
-            longitude: 8.329702
+            latitude: 4.931086,
+            longitude: 8.331908
           }}
           title="Power House"
           description="Generators room"
@@ -146,8 +146,8 @@ export const MapsScreen = ({ navigation }) => {
         />
         <Marker
           coordinate={{
-            latitude: 4.927028,
-            longitude: 8.3293373,
+            latitude: 4.926998,
+            longitude: 8.331482,
           }}
           title="Basketball Court"
           description="Court"
@@ -156,8 +156,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.928166,
-            longitude: 8.3271123
+            latitude: 4.928152,
+            longitude: 8.329298
           }}
           title="Man 'O' War pitch"
           description="Field"
@@ -166,8 +166,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.926914,
-            longitude: 8.3267493
+            latitude: 4.926892,
+            longitude: 8.328879
           }}
           title="Football Field"
           description="Field"
@@ -176,8 +176,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.924786,
-            longitude: 8.3261063
+            latitude: 4.925201,
+            longitude: 8.328299
           }}
           title="New  Science  Block 2"
           description="LECTURE HALL"
@@ -186,8 +186,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.924193,
-            longitude: 8.3280603
+            latitude: 4.924985,
+            longitude: 8.330204
           }}
           title="Crutech Male Hostel"
           description="HOSTEL"
@@ -197,8 +197,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.926181,
-            longitude: 8.3278126
+            latitude: 4.926235,
+            longitude: 8.329086
           }}
           title="Prefab 1,2,3,4"
           description="LECTURE HALL"
@@ -207,8 +207,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.926133,
-            longitude: 8.3281173
+            latitude: 4.926153,
+            longitude: 8.330606
           }}
           title="New Education Block"
           description="LECTURE HALL"
@@ -217,8 +217,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.926392,
-            longitude: 8.3264923
+            latitude: 4.926408,
+            longitude: 8.328723
           }}
           title="ETF 1 AND 2"
           description="LECTURE HALL"
@@ -227,8 +227,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9278409,
-            longitude: 8.3290274
+            latitude: 4.926290,
+            longitude: 8.329813
           }}
           title="Urban and Regional Planning"
           description="Department"
@@ -238,8 +238,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9291473,
-            longitude: 8.3276541
+            latitude: 4.929186,
+            longitude: 8.329903
           }}
           title="Old Engineering block"
           description="Faculty"
@@ -248,8 +248,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9292037,
-            longitude: 8.327916,
+            latitude: 4.929200,
+            longitude: 8.330114,
           }}
           title="Engineering Old Faculty And Dean's Office"
           description="Faculty"
@@ -260,8 +260,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9266998,
-            longitude: 8.3276615
+            latitude: 4.926686,
+            longitude: 8.329919
           }}
           title="Mass Communication"
           description="Department"
@@ -270,8 +270,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9277394,
-            longitude: 8.3281054
+            latitude: 4.926487,
+            longitude: 8.330596
           }}
           title="Post Graduate School"
           description="Post Graduate"
@@ -279,8 +279,8 @@ export const MapsScreen = ({ navigation }) => {
         />
         <Marker
           coordinate={{
-            latitude: 4.9277183,
-            longitude: 8.3280977,
+            latitude: 4.927586,
+            longitude: 8.330290,
           }}
           title="CBT Center"
           description="JAMB Center"
@@ -289,8 +289,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9280166,
-            longitude: 8.3278674,
+            latitude: 4.927991,
+            longitude: 8.3320062,
           }}
           title="Old Computer Science Block"
           description="Old Computer Science"
@@ -298,8 +298,8 @@ export const MapsScreen = ({ navigation }) => {
         />
         <Marker
           coordinate={{
-            latitude: 4.9277931,
-            longitude: 8.3281809,
+            latitude: 4.927790,
+            longitude: 8.330396,
           }}
           title="Heritage Bank"
           description="Bank"
@@ -308,8 +308,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9280189,
-            longitude: 8.3285027,
+            latitude: 4.927960,
+            longitude: 8.330721,
           }}
           title="Faculty of Architecture"
           description="Faculty of Architecture"
@@ -318,8 +318,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9280416,
-            longitude: 8.3299937,
+            latitude: 4.928037,
+            longitude: 8.332265,
           }}
           title="Hall 3 Crutech"
           description="FEMALE HOSTEL"
@@ -329,8 +329,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9280442,
-            longitude: 8.3311166,
+            latitude: 4.927555,
+            longitude: 8.332621,
           }}
           title="Visual Arts Department"
           description="Department"
@@ -339,8 +339,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.928084,
-            longitude: 8.3274878,
+            latitude: 4.928057,
+            longitude: 8.329801,
           }}
           title="Department of mathematics and statistic"
           description="Department"
@@ -352,8 +352,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9757177,
-            longitude: 8.3417014,
+            latitude: 4.928724,
+            longitude: 8.332361,
           }}
           title="Hall 2 Crutech"
           description="FEMALE HOSTEL"
@@ -362,8 +362,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9295288,
-            longitude: 8.3300634,
+            latitude: 4.929464,
+            longitude: 8.332542,
           }}
           title="Hall 1 Crutech"
           description="FEMALE HOSTEL"
@@ -372,18 +372,18 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9285651,
-            longitude: 8.3296175,
+            latitude: 4.928561,
+            longitude: 8.331865,
           }}
-          title="Crutech SUG Solemn Assembly"
+          title="Crutech SUG Solemn Assembly / New CAF"
           description="Solemn Assembly"
 
         />
 
         <Marker
           coordinate={{
-            latitude: 4.928362,
-            longitude: 8.3279753,
+            latitude: 4.929000,
+            longitude: 8.330095,
           }}
           title="General Store"
           description="General Store"
@@ -392,28 +392,20 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9293948,
-            longitude: 8.3283548,
+            latitude: 4.928024,
+            longitude: 8.328552,
           }}
           title="Wood Production"
           description="Workshop"
 
         />
 
-        <Marker
-          coordinate={{
-            latitude: 4.9295315,
-            longitude: 8.3311551,
-          }}
-          title="Engineering Old Faculty And Dean's Office"
-          description="Faculty"
 
-        />
 
         <Marker
           coordinate={{
-            latitude: 4.9284812,
-            longitude: 8.3298714,
+            latitude: 4.929482,
+            longitude: 8.329989,
           }}
           title="Faculty of Physical Science"
           description="Faculty"
@@ -422,8 +414,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9290162,
-            longitude: 8.3271302,
+            latitude: 4.928883,
+            longitude: 8.328891,
           }}
           title="ELECTRICAL ENGINEERING"
           description="Faculty"
@@ -432,18 +424,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9290162,
-            longitude: 8.3271302,
-          }}
-          title="Faculty of Architecture"
-          description="Faculty"
-
-        />
-
-        <Marker
-          coordinate={{
-            latitude: 4.9757177,
-            longitude: 8.3417014,
+            latitude: 4.927849,
+            longitude: 8.328477,
           }}
           title="CIVIL ENGINEERING WORKSHOP"
           description="Faculty"
@@ -451,8 +433,8 @@ export const MapsScreen = ({ navigation }) => {
         />
         <Marker
           coordinate={{
-            latitude: 4.9424984,
-            longitude: 8.3269849,
+            latitude: 4.926459,
+            longitude: 8.330803,
           }}
           title="Faculty of Education"
           description="Faculty"
@@ -461,8 +443,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9424984,
-            longitude: 8.3269849,
+            latitude: 4.927150,
+            longitude: 8.328174,
           }}
           title="Mama G Restaurant"
           description="Restaurant"
@@ -471,8 +453,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9300833,
-            longitude: 8.3280253,
+            latitude: 4.930101,
+            longitude: 8.330153,
           }}
           title="MIS"
           description="MIS"
@@ -481,8 +463,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9757177,
-            longitude: 8.3417014,
+            latitude: 4.929765,
+            longitude: 8.330394,
           }}
           title="Library"
           description="Library"
@@ -491,8 +473,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9283671,
-            longitude: 8.3269341,
+            latitude: 4.925828,
+            longitude: 8.325901,
           }}
           title="Department of Works"
           description="Department of Works"
@@ -500,8 +482,8 @@ export const MapsScreen = ({ navigation }) => {
         />
         <Marker
           coordinate={{
-            latitude: 4.9267152,
-            longitude: 8.3258229,
+            latitude: 4.926510,
+            longitude: 8.328000,
           }}
           title="Soil Mechanic Laboratory"
           description="Laboratory"
@@ -509,8 +491,8 @@ export const MapsScreen = ({ navigation }) => {
         />
         <Marker
           coordinate={{
-            latitude: 4.9265351,
-            longitude: 8.3258443,
+            latitude: 4.926783,
+            longitude: 8.328106,
           }}
           title="Strenght of material Labratory"
           description="Labratory"
@@ -519,8 +501,8 @@ export const MapsScreen = ({ navigation }) => {
 
         <Marker
           coordinate={{
-            latitude: 4.9309294,
-            longitude: 8.3286361,
+            latitude: 4.930943,
+            longitude: 8.329943,
           }}
           title="Information Unit"
           description="Information Unit"
