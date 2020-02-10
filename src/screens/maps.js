@@ -4,6 +4,22 @@ import { Divider, Icon, Layout, Text, TopNavigation, TopNavigationAction } from 
 import { Dimensions, StyleSheet, PermissionsAndroid, } from 'react-native';
 import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
 
+import GetLocation from 'react-native-get-location';
+
+
+GetLocation.getCurrentPosition({
+  enableHighAccuracy: true,
+  timeout: 15000,
+})
+  .then(location => {
+    console.log(location);
+
+
+  })
+  .catch(error => {
+    const { code, message } = error;
+    console.warn(code, message);
+  })
 
 const BackIcon = (style) => (
   <Icon {...style} name='arrow-back' />
@@ -43,7 +59,18 @@ export const MapsScreen = ({ navigation }) => {
         mapType="satellite"
         showsUserLocation={true}
 
+
       >
+        <Marker
+          coordinate={{
+            latitude: 4.924636,
+            longitude: 8.329236
+          }}
+          title="My Location"
+          description="My Location"
+          pinColor='#000000'
+
+        />
         <Marker
           coordinate={{
             latitude: 4.924636,
