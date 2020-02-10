@@ -3,15 +3,6 @@ import { SafeAreaView } from 'react-navigation';
 import { Divider, Icon, Layout, Text, TopNavigation, TopNavigationAction } from '@ui-kitten/components';
 import { Dimensions, StyleSheet, PermissionsAndroid, } from 'react-native';
 import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
-import PropTypes from 'prop-types';
-
-
-const GEOLOCATION_OPTIONS = {
-  enableHighAccuracy: true,
-  timeout: 20000,
-  maximumAge: 1000,
-};
-
 
 
 const BackIcon = (style) => (
@@ -212,6 +203,15 @@ export const MapsScreen = ({ navigation }) => {
           }}
           title="New Education Block"
           description="LECTURE HALL"
+
+        />
+        <Marker
+          coordinate={{
+            latitude: 4.926356,
+            longitude: 8.332150
+          }}
+          title="Clinic"
+          description="Clinic"
 
         />
 

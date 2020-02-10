@@ -51,7 +51,7 @@ export const HighlightsScreen = ({ navigation }) => {
     <React.Fragment>
       <Image
         style={styles.headerImage}
-        source={{ uri: 'https://res.cloudinary.com/dnzgtmimy/image/upload/v1581176074/Screenshot_20200201-130820_jgduzv.png ' }}
+        source={{ uri: 'https://res.cloudinary.com/dnzgtmimy/image/upload/v1581176074/Screenshot_20200201-130820_jgduzv.png  ' }}
       />
       <Text
         style={styles.headerText}
@@ -186,51 +186,52 @@ export const HighlightsScreen = ({ navigation }) => {
       <SafeAreaView style={styles.container}>
         <TopNavigation title='CRUTECH Map' alignment='center' leftControl={BackAction()} />
         <Divider />
-        <Card header={Admin}>
+
+        <Card style={{ margin: 10 }} header={Gate}>
 
 
         </Card>
-        <Card header={Gate}>
+        <Card style={{ margin: 10 }} header={Admin}>
 
 
         </Card>
-        <Card header={Mass}>
+        <Card style={{ margin: 10 }} header={Mass}>
 
 
         </Card>
-        <Card header={Lib}>
+        <Card style={{ margin: 10 }} header={Lib}>
 
 
         </Card>
-        <Card header={Work}>
+        <Card style={{ margin: 10 }} header={Work}>
 
 
         </Card>
-        <Card header={Boys}>
+        <Card style={{ margin: 10 }} header={Boys}>
 
 
         </Card>
-        <Card header={ETF}>
+        <Card style={{ margin: 10 }} header={ETF}>
 
 
         </Card>
-        <Card header={HallOne}>
+        <Card style={{ margin: 10 }} header={HallOne}>
 
 
         </Card>
-        <Card header={HallTwo}>
+        <Card style={{ margin: 10 }} header={HallTwo}>
 
 
         </Card>
-        <Card header={HallThree}>
+        <Card style={{ margin: 10 }} header={HallThree}>
 
 
         </Card>
-        <Card header={Lab}>
+        <Card style={{ margin: 10 }} header={Lab}>
 
 
         </Card>
-        <Card header={NSB}>
+        <Card style={{ margin: 10 }} header={NSB}>
 
 
         </Card>

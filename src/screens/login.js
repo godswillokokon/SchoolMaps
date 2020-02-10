@@ -47,7 +47,7 @@ export const LoginScreen = ({ navigation }) => {
         </Layout>
 
         <Layout style={styles.layout} level='2'>
-          <Button onPress={navigateMe}>About Me</Button>
+          <Button onPress={navigateMe}>About Us</Button>
         </Layout>
 
         <Layout style={styles.layout} level='1'>
