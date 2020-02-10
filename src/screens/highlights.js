@@ -65,7 +65,7 @@ export const HighlightsScreen = ({ navigation }) => {
     <React.Fragment>
       <Image
         style={styles.headerImage}
-        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+        source={{ uri: 'https://res.cloudinary.com/dnzgtmimy/image/upload/v1581177050/WhatsApp_Image_2020-02-01_at_1.05.33_PM_2_yh17n7.jpg' }}
       />
       <Text
         style={styles.headerText}
@@ -78,7 +78,7 @@ export const HighlightsScreen = ({ navigation }) => {
     <React.Fragment>
       <Image
         style={styles.headerImage}
-        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+        source={{ uri: 'https://res.cloudinary.com/dnzgtmimy/image/upload/v1581176075/Screenshot_20200201-131618_xpmnut.png' }}
       />
       <Text
         style={styles.headerText}
@@ -87,29 +87,29 @@ export const HighlightsScreen = ({ navigation }) => {
     </Text>
     </React.Fragment>
   );
-  const Boys = () => (
+  const PRE = () => (
     <React.Fragment>
       <Image
         style={styles.headerImage}
-        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+        source={{ uri: 'https://res.cloudinary.com/dnzgtmimy/image/upload/v1581180483/Screenshot_20200208-174351_gdph78.png ' }}
       />
       <Text
         style={styles.headerText}
         category='h6'>
-        Boys Hostel
+        PREFAB
     </Text>
     </React.Fragment>
   );
-  const ETF = () => (
+  const MIS = () => (
     <React.Fragment>
       <Image
         style={styles.headerImage}
-        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+        source={{ uri: 'https://res.cloudinary.com/dnzgtmimy/image/upload/v1581179978/Screenshot_20200208-172937_bo1bwg.png ' }}
       />
       <Text
         style={styles.headerText}
         category='h6'>
-        ETF
+        MIS
     </Text>
     </React.Fragment>
   );
@@ -117,7 +117,7 @@ export const HighlightsScreen = ({ navigation }) => {
     <React.Fragment>
       <Image
         style={styles.headerImage}
-        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+        source={{ uri: 'https://res.cloudinary.com/dnzgtmimy/image/upload/v1581176072/Screenshot_20200201-131011_trwiip.png ' }}
       />
       <Text
         style={styles.headerText}
@@ -130,25 +130,25 @@ export const HighlightsScreen = ({ navigation }) => {
     <React.Fragment>
       <Image
         style={styles.headerImage}
-        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+        source={{ uri: 'https://res.cloudinary.com/dnzgtmimy/image/upload/v1581176075/Screenshot_20200201-131045_hiadlz.png' }}
       />
       <Text
         style={styles.headerText}
         category='h6'>
-        Hall Two
+        Hall 2
     </Text>
     </React.Fragment>
   );
-  const HallThree = () => (
+  const EngWork = () => (
     <React.Fragment>
       <Image
         style={styles.headerImage}
-        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+        source={{ uri: 'https://res.cloudinary.com/dnzgtmimy/image/upload/v1581176070/Screenshot_20200201-131642_yrmlsp.png' }}
       />
       <Text
         style={styles.headerText}
         category='h6'>
-        Hall Three
+        Engineering work shop
     </Text>
     </React.Fragment>
   );
@@ -157,7 +157,7 @@ export const HighlightsScreen = ({ navigation }) => {
     <React.Fragment>
       <Image
         style={styles.headerImage}
-        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+        source={{ uri: 'https://res.cloudinary.com/dnzgtmimy/image/upload/v1581176069/Screenshot_20200201-130923_iabz6k.png' }}
       />
       <Text
         style={styles.headerText}
@@ -170,7 +170,7 @@ export const HighlightsScreen = ({ navigation }) => {
     <React.Fragment>
       <Image
         style={styles.headerImage}
-        source={{ uri: 'https://res.cloudinary.com/ogcodes/image/upload/v1581012659/WhatsApp_Image_2020-02-01_at_1.05.35_PM.jpg' }}
+        source={{ uri: 'https://res.cloudinary.com/dnzgtmimy/image/upload/v1581177263/WhatsApp_Image_2020-02-01_at_1.17.11_PM_yw9hlh.jpg ' }}
       />
       <Text
         style={styles.headerText}
@@ -207,11 +207,11 @@ export const HighlightsScreen = ({ navigation }) => {
 
 
         </Card>
-        <Card style={{ margin: 10 }} header={Boys}>
+        <Card style={{ margin: 10 }} header={PRE}>
 
 
         </Card>
-        <Card style={{ margin: 10 }} header={ETF}>
+        <Card style={{ margin: 10 }} header={MIS}>
 
 
         </Card>
@@ -223,7 +223,7 @@ export const HighlightsScreen = ({ navigation }) => {
 
 
         </Card>
-        <Card style={{ margin: 10 }} header={HallThree}>
+        <Card style={{ margin: 10 }} header={EngWork}>
 
 
         </Card>
