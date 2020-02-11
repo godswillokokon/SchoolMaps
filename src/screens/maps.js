@@ -12,13 +12,13 @@ GetLocation.getCurrentPosition({
   timeout: 15000,
 })
   .then(location => {
-    console.log(location);
+    //console.log(location);
 
 
   })
   .catch(error => {
     const { code, message } = error;
-    console.warn(code, message);
+    //  console.warn(code, message);
   })
 
 const BackIcon = (style) => (
